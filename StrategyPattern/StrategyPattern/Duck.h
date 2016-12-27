@@ -5,9 +5,10 @@
 
 class Duck
 {
+public:
     FlyBehavior *flyBehavior;
     QuackBehavior *quackBehavior;
-public:
+
     Duck();
     ~Duck();
 
