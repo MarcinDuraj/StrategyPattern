@@ -1,0 +1,2 @@
+# StrategyPattern
+Learning DesignPatterns - StrategyPattern
