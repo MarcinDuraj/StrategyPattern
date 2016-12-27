@@ -1,11 +1,11 @@
 #pragma once
 #include "FlyBehavior.h"
-class FlyWithNoWings :
+class FlyWithWings :
     public FlyBehavior
 {
 public:
-    FlyWithNoWings();
-    ~FlyWithNoWings();
+    FlyWithWings();
+    ~FlyWithWings();
 
     virtual void fly();
 };
