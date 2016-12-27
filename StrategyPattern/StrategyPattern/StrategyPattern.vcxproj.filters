@@ -13,26 +13,83 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\FlyBehaviors">
+      <UniqueIdentifier>{cf5e1e9f-5281-4992-95ff-bbc4ed9337ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QuackBehaviors">
+      <UniqueIdentifier>{85ea54b0-eb0e-4ec7-bd3f-ecf3d1ebcba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FlyBehaviors">
+      <UniqueIdentifier>{836465d5-972d-486d-bfbe-523acbff18b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuackBahaviors">
+      <UniqueIdentifier>{cc7af0ef-dac0-4c52-aaa7-268a83f145d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ducks">
+      <UniqueIdentifier>{364f6782-277e-459a-9af5-685213e0671a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ducks">
+      <UniqueIdentifier>{b257c093-d6f7-41f7-9976-efbaaae8e7ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Duck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="QuackBehavior.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="FlyBehavior.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\FlyBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNoWay.h">
+      <Filter>Header Files\FlyBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithWings.h">
+      <Filter>Header Files\FlyBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Quack.h">
+      <Filter>Header Files\QuackBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehavior.h">
+      <Filter>Header Files\QuackBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Silence.h">
+      <Filter>Header Files\QuackBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Squeak.h">
+      <Filter>Header Files\QuackBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>Header Files\Ducks</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Duck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QuackBehavior.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="FlyBehavior.cpp">
+      <Filter>Source Files\FlyBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyNoWay.cpp">
+      <Filter>Source Files\FlyBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyWithWings.cpp">
+      <Filter>Source Files\FlyBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Quack.cpp">
+      <Filter>Source Files\QuackBahaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackBehavior.cpp">
+      <Filter>Source Files\QuackBahaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Silence.cpp">
+      <Filter>Source Files\QuackBahaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Squeak.cpp">
+      <Filter>Source Files\QuackBahaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuck.cpp">
+      <Filter>Source Files\Ducks</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDuckSimulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

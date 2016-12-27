@@ -2,7 +2,7 @@
 #include "FlyWithWings.h"
 #include "Quack.h"
 #include <iostream>
-#include <new>
+//#include <new>
 
 
 MallardDuck::MallardDuck()
